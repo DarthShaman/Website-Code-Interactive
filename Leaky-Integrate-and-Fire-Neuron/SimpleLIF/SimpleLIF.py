@@ -1,4 +1,7 @@
-
+"""
+This Leaky Integrate-and-Fire Neuron model uses Brian2 as an ODE solver.
+This allows the user to create dynamic equations as you would see in published reports
+"""
 
 from brian2 import *
 import matplotlib.pyplot as plt
